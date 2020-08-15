@@ -1,0 +1,169 @@
+
+body {
+    background: #334d50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbcaa5, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.Estelar-Header, .Estelar-Body, .Estelar-Footer {
+    background-color: rgba(0, 0, 0, .5);
+    
+}
+.Estelar-Header {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+.Estelar-Body {
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0px 20px 20px 20px;
+    margin: 0;
+
+}
+.Estelar-Footer {
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.Estelar-Footer .Footer-Text{
+    text-align: right;
+}
+
+
+.Marcas-Destacadas {
+    text-align: center;
+}
+.Carousel-Container {
+    margin: 0 auto;
+    width: 450px;
+    text-align: center;
+}
+
+.Carousel-Container .Img-Brand {
+    margin: auto;
+    padding: 10px;
+    width: 350px;
+    border: solid #080808;
+    height: 200px;
+}
+
+.Product-Body {
+    margin: auto;
+    padding: auto;
+}
+
+.Product-View {
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin: auto;
+    padding: 10px;
+}
+
+.Product-Container {
+    position: relative;
+    width: 100%;
+    height: 0 auto;
+}
+
+.Product-Container .Img-Product {
+    float: left;
+    width: 360px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.Product-Container .Brand {
+    font-size: 40px;
+    color: #F8F7F7;
+    font-weight: bold;
+}
+.Description {
+    color: #F8F7F7;
+}
+.Price {
+    font-size: 30px;
+    color: #F8F7F7;
+}
+.Product-Container li {
+    list-style: none;
+}
+
+.Product-Container .List-Color {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Product-Container .List-Color li {
+    margin: 5px;
+}
+
+.Product-Container .List-Color li .View-Color-Button{
+    margin: 0 auto;
+    height: 50px;
+}
+
+.Product-Container .List-Sizes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Product-Container .List-Sizes li {
+    margin: 5px;
+}
+.Product-Container .Buttons-Amount-Container {
+    margin: auto;
+    height: 60px;
+}
+
+.Product-Container .Buttons-Amount-Container .Button-Amount {
+    float: left;
+    margin: 5px;
+    height: auto;
+    padding: auto;
+}
+
+.Product-Container .Buttons-Amount-Container .Amount-text {
+    float: left;
+    font-size: 30px;
+    color: #ffe600;
+    height: auto;
+    padding: auto;
+}
+
+
+.Product-Container .Add-Shopping-Container {
+    clear: both;
+    margin: auto;
+    padding: auto;
+}
+
+.Product-Container .Add-Shopping-Container .Add-Shoppin-Cart-Button {
+    text-align: left;
+    margin: auto;
+    padding: auto;
+}
+
+.List-Products-Container {
+    width: 100%;
+    height: 900px;
+}
+
+.List-Products-Container .Product-Card{
+    float: left;
+    margin: 20px 20px 20px 0px;
+    height: 600px;
+}

@@ -1,0 +1,31 @@
+
+.Navbar-Container, .Navbar {
+    
+}
+.Navbar-Container {
+}
+
+.Img-Home {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+}
+
+.Logout-Login-Button, .ShoppingCart-Button {
+    width: auto;
+    height: auto;
+}
+
+.Navbar-Text {
+    margin: auto;
+    padding: 10px;
+    font-size: larger;
+}
+
+.Img-ShoppingCart {
+    width: 150px;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+}
